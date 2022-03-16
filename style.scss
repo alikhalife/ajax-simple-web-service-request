@@ -1,0 +1,26 @@
+@media (min-width: 1000px) {
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    img {
+        border-radius: 50%;
+        width: 15%;
+        width: 15%;
+        margin-left: 38%;
+      }
+    
+    h1 {
+    text-align: center;
+    color: rgba(65, 88, 9, 0.842);
+    font-family:"Open Sans";
+      }
+
+    blockquote {
+        text-align: center;
+        font-size: larger;
+    }
+    
+
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    
+}

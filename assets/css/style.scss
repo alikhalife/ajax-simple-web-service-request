@@ -25,11 +25,11 @@
     button {
         background-color: rgba(65, 88, 9, 0.842);
         color: beige;
-        padding: 20px;
+        padding: 12px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 12px;
         margin: 4px 2px;
         cursor: pointer;
         border-radius: 50%;
@@ -39,5 +39,41 @@
 }
 
 @media (min-width: 300px) and (max-width: 1000px) {
+
+    img {
+        border-radius: 50%;
+        width: 15%;
+        width: 15%;
+        margin-left: 38%;
+      }
+      h1 {
+        text-align: center;
+        color: rgba(65, 88, 9, 0.842);
+        font-family:"Open Sans";
+          }
+    
+        blockquote {
+            text-align: center;
+            font-size: larger;
+        }
+    
+        p {
+            text-align: center;
+        }
+    
+
+      button {
+        background-color: rgba(65, 88, 9, 0.842);
+        color: beige;
+        padding: 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 50%;
+    }
+    
     
 }

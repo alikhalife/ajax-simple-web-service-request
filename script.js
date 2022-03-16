@@ -21,14 +21,14 @@ async function getQuotes() {
     let data = await fetch("https://thatsthespir.it/api");
     let response = await data.json()
 
-    //getting specific data
+    //getting specific data from json file
     let quote = await response.quote;
     let author = await response.author;
     let photo = await response.photo;
 
     //displaying fetched data on my DOM elements
-    quotes.innerHTML = quote;
-    authors.innerHTML = author;
+    quotes.innerHTML = "<q>" + quote + "</q>";
+    authors.innerHTML = "- " + author;
     photos.src= photo;
 
     }

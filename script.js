@@ -3,6 +3,12 @@ const quotes = document.getElementById("quote");
 const authors = document.getElementById("author");
 const photos = document.querySelector("img");
 
+const refresh = document.getElementById("refresh");
+
+refresh.addEventListener("click",() => {
+    location.reload();
+})
+
 
 // one way of getting data
 // fetch("https://thatsthespir.it/api")

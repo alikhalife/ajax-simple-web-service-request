@@ -18,5 +18,17 @@
   p {
     text-align: center;
   }
+  button {
+    background-color: rgba(65, 88, 9, 0.842);
+    color: beige;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
